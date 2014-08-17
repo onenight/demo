@@ -1,5 +1,5 @@
-current_path = "/home/apps/maximaxi/current"
-shared_path = "/home/apps/maximaxi/shared"
+current_path = "/home/apps/demo/current"
+shared_path = "/home/apps/demo/shared"
 
 # Sample verbose configuration file for Unicorn (not Rack)
 #
