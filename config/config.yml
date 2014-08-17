@@ -1,0 +1,23 @@
+defaults: &defaults
+  app_name: demo
+  domain: demo.dev
+  url: http://demo.dev
+  description:
+  keywords:
+  google_analytics_key:
+  default_og_url: "/images/og.jpg"
+  email_sender: 
+  facebook_app_id: 
+  gplus_app_id: 
+  admin_emails:
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+  domain: demo.com
+  url: http://demo.com
